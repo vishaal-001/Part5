@@ -1,0 +1,44 @@
+// import { render, screen } from '@testing-library/react'
+// import CreateBlog from './CreateBlog'
+// import userEvent from '@testing-library/user-event'
+
+// test('calls event handler with right details when new blog created', async () => {
+
+//   const mockHandler = vi.fn()
+
+//   render(
+//     <CreateBlog handleCreateBlog={mockHandler} />
+//   )
+
+//   const user = userEvent.setup()
+
+//   const inputs = screen.getAllByRole('textbox')
+
+//   await user.type(
+//     inputs[0],
+//     'React Testing'
+//   )
+
+//   await user.type(
+//     inputs[1],
+//     'Vishal patel'
+//   )
+
+//   await user.type(
+//     inputs[2],
+//     'http://reacttesting.com'
+//   )
+
+//   const button = screen.getByText('Create')
+
+//   await user.click(button)
+
+//   expect(mockHandler).toHaveBeenCalledTimes(1)
+
+//   expect(mockHandler.mock.calls[0][0]).toEqual({
+//     title:'React Testing',
+//     author:'Vishal patel',
+//     url:'http://reacttesting.com'
+//   })
+
+// })
