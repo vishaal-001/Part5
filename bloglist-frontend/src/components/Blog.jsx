@@ -5,15 +5,6 @@ const Blog = ({ blog, user, handleLike, handleDelete }) => {
     return null
   }
 
-
-  const blogStyle = {
-    paddingTop: 1,
-    paddingLeft: 2,
-    borderWidth: 1,
-    marginBottom: 5,
-    marginTop: 5
-  }
-
   return (
     <Paper elevation={3} sx={{
       p: 4,
